@@ -1,4 +1,8 @@
 module.exports = {
+  target: 'static',
+  router: {
+    base: '/crypto_info/'
+  },
   telemetry: false,
   mode: 'universal',
   /*

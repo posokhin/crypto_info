@@ -43,6 +43,9 @@ module.exports = {
   /*
    ** Build configuration
    */
+  axios: {
+    baseURL: process.env.BASE_URL
+  },
   build: {
     /*
      ** You can extend webpack config here
